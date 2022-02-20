@@ -12,3 +12,13 @@ function getRandomInt(min, max) {
 }
 
 getRandomInt(1, 5);
+
+
+function getStringMaxLength(string, maxLength) {
+  if (string.length > maxLength) {
+    return false;
+  }
+  return true;
+}
+
+getStringMaxLength('Hello, world', 30);
